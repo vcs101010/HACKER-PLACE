@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #037f10;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== BOTÕES ===== */
+.btn, .btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+/* Botão azul (próxima página) */
+.btn {
+    background: #027411;
+}
+
+.btn:hover {
+    background: #027411;
+}
+
+/* Botão cinza (voltar) */
+.btn-voltar {
+    background: #555;
+}
+
+.btn-voltar:hover {
+    background: #333;
+}
